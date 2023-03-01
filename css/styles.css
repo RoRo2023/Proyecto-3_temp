@@ -1,0 +1,114 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/*Globales*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F4F6F9;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.text-muted{
+    color: #99abb4!important;
+}
+
+.container{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: white;
+}
+
+/*Header*/
+header{
+    padding: 20px 12px 15px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+/*Main*/
+h1{
+    font-size: 21px;
+    color: #186dde;
+}
+
+/*Quick info cards*/
+.quick-data-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.quick-data{
+    display: flex;
+}
+
+/*Graphs*/
+.graph-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.graph{
+    display: flex;
+    flex-direction: column;
+}
+
+.graph1 .table{
+    display: flex;
+    color: white;
+    background-color: #186DDE;
+    align-items: flex-start!important;
+}
+
+.active{
+    background-color: #1662C7;
+    width: 210px;
+}
+
+.cells{
+    display: flex;
+    flex-direction: row;
+}
+
+.cell{
+    width: 210px;
+    padding: 16px;
+}
+
+.cell h2{
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-size: 21px;
+}
+
+.cell p{
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.graph img{
+    size: initial;
+    align-self: center;
+}
+
+
+
+/*Footer*/
+footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
